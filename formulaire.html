@@ -1,0 +1,33 @@
+<html>
+<body>
+<head><div><p>Formulaire</p></div></head>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+<form>
+
+<table>
+        
+<tr><td>Nom</td><td>
+        <script language="javascript">
+                   function test(champ)
+                           {
+                                if(t == "") {
+		                alert('Le champ ne peut pas rester vide !! Veuillez introduire votre formule de calcul');
+		                document.form.coefficient.focus();
+                              
+                                }  
+                           }     
+                 
+        </script>
+<input type="text" name="name" size="30" onblur="test(this)" /> </td></tr>
+<tr><td>Prenom</td><td><input type='text' name = 'prenom' id='name' </td></tr>
+<tr><td>Pass</td><td> <input type='password' name='pass' id ='pass'</td></tr>
+<tr><td>Confirm Pass</td><td> <input type='password' name='confpass' id='confpass'> </td> </tr>
+<tr><td><input type='button' value="send" name='send' > </td> </tr>
+</table>
+
+</body>
+</html>
